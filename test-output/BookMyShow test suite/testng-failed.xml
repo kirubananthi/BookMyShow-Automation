@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BookMyShow test suite]">
+  <listeners>
+    <listener class-name="ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Bookmyshow Test cases(failed)">
+    <classes>
+      <class name="com.movie.select.test.selectseattest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="selectSeat"/>
+          <include name="validateSelectNumOfTickets"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.movie.select.test.selectseattest -->
+    </classes>
+  </test> <!-- Bookmyshow Test cases(failed) -->
+</suite> <!-- Failed suite [BookMyShow test suite] -->

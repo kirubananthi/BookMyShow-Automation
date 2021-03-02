@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="BookMyShow test suite" verbose="1">
+	<listeners>
+		<listener class-name="ExtentReportListener.ExtentReportListener" />
+	</listeners>
+	
+	<test name="Bookmyshow Test cases">
+	<classes>
+	<class name="com.movie.select.test.selectseattest"></class>
+	</classes>
+	</test>
+	
+</suite>

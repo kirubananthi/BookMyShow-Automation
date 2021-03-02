@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="578954" started-at="2021-03-01T11:48:37Z" finished-at="2021-03-01T11:58:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="578954" started-at="2021-03-01T11:48:37Z" finished-at="2021-03-01T11:58:16Z">
+      <class name="com.movie.select.test.selectseattest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.movie.select.test.selectseattest@7722c3c3]" name="setup" is-config="true" duration-ms="46124" started-at="2021-03-01T11:48:37Z" finished-at="2021-03-01T11:49:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getTestData()[pri:1, instance:com.movie.select.test.selectseattest@7722c3c3]" name="getTestData" duration-ms="1899" started-at="2021-03-01T11:49:23Z" finished-at="2021-03-01T11:49:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestData -->
+        <test-method status="PASS" signature="validateSelectCity()[pri:2, instance:com.movie.select.test.selectseattest@7722c3c3]" name="validateSelectCity" duration-ms="4453" started-at="2021-03-01T11:49:25Z" finished-at="2021-03-01T11:49:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSelectCity -->
+        <test-method status="PASS" signature="validateSelectMovie()[pri:3, instance:com.movie.select.test.selectseattest@7722c3c3]" name="validateSelectMovie" duration-ms="26815" started-at="2021-03-01T11:49:29Z" finished-at="2021-03-01T11:49:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSelectMovie -->
+        <test-method status="PASS" signature="validateBookTicket()[pri:4, instance:com.movie.select.test.selectseattest@7722c3c3]" name="validateBookTicket" duration-ms="5918" started-at="2021-03-01T11:49:56Z" finished-at="2021-03-01T11:50:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBookTicket -->
+        <test-method status="PASS" signature="validateSelectNumOfTickets()[pri:5, instance:com.movie.select.test.selectseattest@7722c3c3]" name="validateSelectNumOfTickets" duration-ms="17258" started-at="2021-03-01T11:50:02Z" finished-at="2021-03-01T11:50:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSelectNumOfTickets -->
+        <test-method status="PASS" signature="selectSeat()[pri:6, instance:com.movie.select.test.selectseattest@7722c3c3]" name="selectSeat" duration-ms="208997" started-at="2021-03-01T11:50:19Z" finished-at="2021-03-01T11:53:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSeat -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.movie.select.test.selectseattest@7722c3c3]" name="tearDown" is-config="true" duration-ms="267407" started-at="2021-03-01T11:53:48Z" finished-at="2021-03-01T11:58:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.movie.select.test.selectseattest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
